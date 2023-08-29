@@ -1,0 +1,12 @@
+import 'package:your_app_name_here/database_query.dart';
+
+final DatabaseQuery _databaseQuery = DatabaseQuery();
+
+// To get the currentUser:
+User? currentUser = _databaseQuery.currentUser;
+
+// To perform CRUD operations:
+await _databaseQuery.addRecord('collectionName', {'fieldName': 'value'});
+List<Map<String, dynamic>> records = await _databaseQuery.getRecords('collectionName');
+await _databaseQuery.updateRecord('collectionName', 'documentId', {'fieldName': 'updatedValue'});
+await _databaseQuery.deleteRecord('collectionName', 'documentId');

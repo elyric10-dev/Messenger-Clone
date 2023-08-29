@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "284283583028",
+    "project_id": "emessenger-856f6",
+    "storage_bucket": "emessenger-856f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284283583028:android:b0d33047c4f0a10f966861",
+        "android_client_info": {
+          "package_name": "com.example.ely_ai_messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284283583028-qbldl19ltik1mti0c5pcg0utf43b5m18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoi1g8HbLRUpi_ayqLjorvgGs93sIeQlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284283583028-qbldl19ltik1mti0c5pcg0utf43b5m18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
